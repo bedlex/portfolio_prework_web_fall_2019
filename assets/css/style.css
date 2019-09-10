@@ -1,0 +1,158 @@
+/**bacground color**/
+body{
+  background-color: #C0C0C0;
+  font-family: 'Lato', sans-serif;
+}
+/**Fixing box elements in container**/
+.clearfix:after{
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+
+/**webside navigation bar, background, and head mensions**/
+.top{
+  display: block;
+  width:100%;
+  height: 355px;
+  position: absolute;
+  left: 0;
+  top:0;
+  right:0;
+  box-shadow: 0 0 8px 3px #A1A1A1;
+  background: url("../img/nav_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222578;
+
+
+}
+/** logo**/
+.logo{
+  display: block;
+  background-image: url("../img/LOGO2.png");
+  width: 284px;
+  height: 140px;
+  float: left;
+  margin: 15px 355px;
+}
+
+/**navigation bar **/
+.navigation{
+  display: block;
+  width: 100%;
+  margin-top: 130px;
+  float:right;
+  bottom: 0px;
+  background-color: #000;
+  opacity: 0.6;
+  height: 55px;
+
+
+}
+
+.active{
+  color:#EB0001;
+}
+
+
+
+
+/**navigation bar left side**/
+.menu{
+/**  padding-left: 5%;**/
+margin-left: 4%;
+  display: inline-block;
+  float:left;
+
+}
+
+/**navigation bar buttons**/
+.menu_link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  transition: color .2s linear;
+}
+/**buttons color change**/
+.menu_link:hover{
+  content: "";
+  color: #fce38a;
+  transition: color .2s linear;
+
+}
+
+
+
+/**navigation bar right side**/
+.menu2{
+  padding-right: 5%;
+  float:right;
+}
+
+
+/**website content body**/
+.wrapper{
+  display: block;
+  position: absolute;
+  margin: 360px 0 0 0;
+  float: left;
+  width: 100%;
+  color: #000;
+
+}
+/**Left col**/
+#left_col{
+  display: block;
+  width:65%;
+  margin-left: 5%;
+  margin-right: 20px;
+  float: left;
+
+}
+/**Right col**/
+#right_col{
+  display: block;
+  width:23%;
+  float:right;
+  margin-right: 5%;
+
+}
+
+
+/**Content box**/
+.article{
+  box-sizing:content-box;
+  margin: 20px 20px;
+  display: block;
+  box-shadow: 0 0 5px 2px #A1A1A1;
+    background-color: #fff;
+    padding: 5px 20px;
+}
+.article p{
+  text-indent: 30px;
+}
+.left_art h2{
+  text-indent: 40px;
+}
+.right_art h3{
+  text-align: center;
+}
+/**Pictures alinment**/
+.picture_one{
+  display: block;
+  float:left;
+  padding: 15px;
+  box-shadow: 0 0 5px 2px #A1A1A1;
+  margin: 20px;
+}
+.pictures{
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  box-shadow: 0 0 5px 2px #A1A1A1;
+  background-color: #FFF;
+}
